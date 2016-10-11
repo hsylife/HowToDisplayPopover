@@ -12,6 +12,7 @@
 		D6AC13041DAD15DE00A2DA90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AC13021DAD15DE00A2DA90 /* Main.storyboard */; };
 		D6AC13061DAD15DE00A2DA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AC13051DAD15DE00A2DA90 /* Assets.xcassets */; };
 		D6AC13091DAD15DE00A2DA90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AC13071DAD15DE00A2DA90 /* LaunchScreen.storyboard */; };
+		D6AC13111DAD16F600A2DA90 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AC13101DAD16F600A2DA90 /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D6AC13051DAD15DE00A2DA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6AC13081DAD15DE00A2DA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6AC130A1DAD15DE00A2DA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6AC13101DAD16F600A2DA90 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D6AC12FE1DAD15DE00A2DA90 /* AppDelegate.swift */,
 				D6AC13001DAD15DE00A2DA90 /* ViewController.swift */,
+				D6AC13101DAD16F600A2DA90 /* ContentViewController.swift */,
 				D6AC13021DAD15DE00A2DA90 /* Main.storyboard */,
 				D6AC13051DAD15DE00A2DA90 /* Assets.xcassets */,
 				D6AC13071DAD15DE00A2DA90 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6AC13011DAD15DE00A2DA90 /* ViewController.swift in Sources */,
+				D6AC13111DAD16F600A2DA90 /* ContentViewController.swift in Sources */,
 				D6AC12FF1DAD15DE00A2DA90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				D6AC130F1DAD15DE00A2DA90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
